@@ -1,0 +1,46 @@
+{
+  "invoice_01_classic.pdf": {
+    "vendor": "Northwind Synthetic Supplies Ltd",
+    "invoice_number": "INV-2026-0142",
+    "invoice_date": "2026-03-14",
+    "currency": "USD",
+    "subtotal": 1210.5,
+    "tax": 96.84,
+    "total": 1307.34,
+    "line_item_count": 3,
+    "expected_validation": "OK"
+  },
+  "invoice_02_modern_total_error.pdf": {
+    "vendor": "Brightside Demo Studio LLC",
+    "invoice_number": "AC-77831",
+    "invoice_date": "2026-03-18",
+    "currency": "USD",
+    "subtotal": 697.5,
+    "tax": 69.75,
+    "total": 777.25,
+    "line_item_count": 3,
+    "expected_validation": "FLAGGED"
+  },
+  "invoice_03_european.pdf": {
+    "vendor": "Beispiel Büro GmbH",
+    "invoice_number": "R-2026/0099",
+    "invoice_date": "2026-03-05",
+    "currency": "EUR",
+    "subtotal": 5268.7,
+    "tax": 1001.05,
+    "total": 6269.75,
+    "line_item_count": 3,
+    "expected_validation": "OK"
+  },
+  "invoice_04_scanned.pdf": {
+    "vendor": "Lumen Paper Co.",
+    "invoice_number": "SC-5521",
+    "invoice_date": "2026-03-09",
+    "currency": "USD",
+    "subtotal": 169.4,
+    "tax": 8.47,
+    "total": 177.87,
+    "line_item_count": 3,
+    "expected_validation": "OK"
+  }
+}

@@ -1,0 +1,49 @@
+[
+  {
+    "source_file": "statement_bankB_feb2026_tampered.pdf",
+    "layout": "debit-credit",
+    "transactions": 24,
+    "opening_balance": "1840.35",
+    "closing_balance": "2080.17",
+    "total_debits": "2489.89",
+    "total_credits": "2702.71",
+    "total_check": "MISMATCH",
+    "total_difference": "27.00",
+    "row_mismatches": [
+      {
+        "index": 1,
+        "date": "2026-02-03",
+        "description": "STREAMING SERVICE MONTHLY",
+        "status": "MISMATCH",
+        "difference": "27.00"
+      }
+    ],
+    "row_status": [
+      "OK",
+      "MISMATCH",
+      "OK",
+      "OK",
+      "OK",
+      "OK",
+      "OK",
+      "OK",
+      "OK",
+      "OK",
+      "OK",
+      "OK",
+      "OK",
+      "OK",
+      "OK",
+      "OK",
+      "OK",
+      "OK",
+      "OK",
+      "OK",
+      "OK",
+      "OK",
+      "OK",
+      "OK"
+    ],
+    "overall": "NEEDS_REVIEW"
+  }
+]

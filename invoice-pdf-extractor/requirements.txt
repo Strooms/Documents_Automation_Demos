@@ -1,0 +1,6 @@
+pdfplumber>=0.11
+pymupdf>=1.24
+pytesseract>=0.3.10
+pillow>=10.0
+reportlab>=4.0     # only needed to generate the synthetic samples
+pytest>=8.0

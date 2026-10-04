@@ -1,0 +1,13 @@
+source_file,invoice_number,vendor,invoice_date,currency,description,quantity,unit_price,amount
+invoice_01_classic.pdf,INV-2026-0142,Northwind Synthetic Supplies Ltd,2026-03-14,USD,"Office chair, ergonomic",4.0,129.5,518.0
+invoice_01_classic.pdf,INV-2026-0142,Northwind Synthetic Supplies Ltd,2026-03-14,USD,Standing desk frame,2.0,310.0,620.0
+invoice_01_classic.pdf,INV-2026-0142,Northwind Synthetic Supplies Ltd,2026-03-14,USD,Cable management kit,10.0,7.25,72.5
+invoice_02_modern_total_error.pdf,AC-77831,Brightside Demo Studio LLC,2026-03-18,USD,Logo design package,1.0,450.0,450.0
+invoice_02_modern_total_error.pdf,AC-77831,Brightside Demo Studio LLC,2026-03-18,USD,Social media templates,6.0,35.0,210.0
+invoice_02_modern_total_error.pdf,AC-77831,Brightside Demo Studio LLC,2026-03-18,USD,Stock photo licences,3.0,12.5,37.5
+invoice_03_european.pdf,R-2026/0099,Beispiel Büro GmbH,2026-03-05,EUR,Beratung (Stunden),12.5,95.0,1187.5
+invoice_03_european.pdf,R-2026/0099,Beispiel Büro GmbH,2026-03-05,EUR,Reisekosten Pauschale,1.0,240.0,240.0
+invoice_03_european.pdf,R-2026/0099,Beispiel Büro GmbH,2026-03-05,EUR,Lizenz Jahresgebühr,3.0,1280.4,3841.2
+invoice_04_scanned.pdf,SC-5521,Lumen Paper Co.,2026-03-09,USD,Copy paper A4 (box),5.0,24.0,120.0
+invoice_04_scanned.pdf,SC-5521,Lumen Paper Co.,2026-03-09,USD,Whiteboard markers,12.0,1.85,22.2
+invoice_04_scanned.pdf,SC-5521,Lumen Paper Co.,2026-03-09,USD,Binder clips (pack),8.0,3.4,27.2

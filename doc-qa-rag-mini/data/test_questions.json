@@ -1,0 +1,12 @@
+[
+  {"id": 1, "question": "How many days of annual leave do employees get?", "expected_doc": "leave_policy.md", "expected_fact": "18 days"},
+  {"id": 2, "question": "What is the maximum amount I can claim for meals per day?", "expected_doc": "expense_policy.pdf", "expected_fact": "USD 40 per day"},
+  {"id": 3, "question": "Which days must I be in the office?", "expected_doc": "remote_work.md", "expected_fact": "Tuesday, Wednesday and Thursday"},
+  {"id": 4, "question": "What does error TN-12 mean in the VPN client?", "expected_doc": "vpn_setup.txt", "expected_fact": "device certificate has expired"},
+  {"id": 5, "question": "How quickly must the on-call engineer respond to a SEV1 incident?", "expected_doc": "incident_response.md", "expected_fact": "15 minutes"},
+  {"id": 6, "question": "How many failed logins before my account is locked?", "expected_doc": "password_policy.md", "expected_fact": "5 failed sign-in attempts"},
+  {"id": 7, "question": "How much does the Pro plan cost?", "expected_doc": "product_faq.pdf", "expected_fact": "USD 19 per month"},
+  {"id": 8, "question": "Can I take time off after my baby is born?", "expected_doc": "leave_policy.md", "expected_fact": "12 weeks of paid parental leave"},
+  {"id": 9, "question": "Who is the CEO of Fiktiva Labs?", "expected_doc": null, "expected_fact": null},
+  {"id": 10, "question": "What is the dress code in the office?", "expected_doc": null, "expected_fact": null}
+]

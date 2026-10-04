@@ -1,0 +1,5 @@
+source_file,extraction_method,vendor,invoice_number,invoice_date,currency,subtotal,tax,total,line_item_count,validation_status,validation_issues
+invoice_01_classic.pdf,text,Northwind Synthetic Supplies Ltd,INV-2026-0142,2026-03-14,USD,1210.5,96.84,1307.34,3,OK,
+invoice_02_modern_total_error.pdf,text,Brightside Demo Studio LLC,AC-77831,2026-03-18,USD,697.5,69.75,777.25,3,FLAGGED,total_mismatch: expected 767.25 but document says 777.25
+invoice_03_european.pdf,text,Beispiel Büro GmbH,R-2026/0099,2026-03-05,EUR,5268.7,1001.05,6269.75,3,OK,
+invoice_04_scanned.pdf,ocr,Lumen Paper Co.,SC-5521,2026-03-09,USD,169.4,8.47,177.87,3,OK,

@@ -1,0 +1,10 @@
+[
+  {"question": "How many sick days can I take without a doctor's note?", "expected_doc": "leave_policy.md", "expected_fact": "more than 2 consecutive days"},
+  {"question": "How soon must postmortems be published?", "expected_doc": "incident_response.md", "expected_fact": "5 business days"},
+  {"question": "What is the hotel cost limit per night?", "expected_doc": "travel_policy.txt", "expected_fact": "USD 150 per night"},
+  {"question": "Which file formats can Fiktiva Docs accept?", "expected_doc": "product_faq.pdf", "expected_fact": "PDF, DOCX and PNG"},
+  {"question": "What is the company policy on pets in the office?", "expected_doc": null, "expected_fact": null},
+  {"question": "How do I request a salary raise?", "expected_doc": null, "expected_fact": null},
+  {"question": "What is the wifi password for guests?", "expected_doc": null, "expected_fact": null},
+  {"question": "Where is the headquarters located?", "expected_doc": null, "expected_fact": null}
+]

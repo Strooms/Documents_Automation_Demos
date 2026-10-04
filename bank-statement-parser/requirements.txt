@@ -1,0 +1,4 @@
+pdfplumber>=0.11
+reportlab>=4.0     # only needed to generate the synthetic samples
+pymupdf>=1.24      # only used for README preview images
+pytest>=8.0

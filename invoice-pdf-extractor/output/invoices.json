@@ -1,0 +1,148 @@
+[
+  {
+    "source_file": "invoice_01_classic.pdf",
+    "extraction_method": "text",
+    "vendor": "Northwind Synthetic Supplies Ltd",
+    "invoice_number": "INV-2026-0142",
+    "invoice_date": "2026-03-14",
+    "currency": "USD",
+    "line_items": [
+      {
+        "description": "Office chair, ergonomic",
+        "quantity": 4.0,
+        "unit_price": 129.5,
+        "amount": 518.0
+      },
+      {
+        "description": "Standing desk frame",
+        "quantity": 2.0,
+        "unit_price": 310.0,
+        "amount": 620.0
+      },
+      {
+        "description": "Cable management kit",
+        "quantity": 10.0,
+        "unit_price": 7.25,
+        "amount": 72.5
+      }
+    ],
+    "subtotal": 1210.5,
+    "tax_rate_percent": 8.0,
+    "tax": 96.84,
+    "total": 1307.34,
+    "validation": {
+      "status": "OK",
+      "issues": []
+    }
+  },
+  {
+    "source_file": "invoice_02_modern_total_error.pdf",
+    "extraction_method": "text",
+    "vendor": "Brightside Demo Studio LLC",
+    "invoice_number": "AC-77831",
+    "invoice_date": "2026-03-18",
+    "currency": "USD",
+    "line_items": [
+      {
+        "description": "Logo design package",
+        "quantity": 1.0,
+        "unit_price": 450.0,
+        "amount": 450.0
+      },
+      {
+        "description": "Social media templates",
+        "quantity": 6.0,
+        "unit_price": 35.0,
+        "amount": 210.0
+      },
+      {
+        "description": "Stock photo licences",
+        "quantity": 3.0,
+        "unit_price": 12.5,
+        "amount": 37.5
+      }
+    ],
+    "subtotal": 697.5,
+    "tax_rate_percent": 1.0,
+    "tax": 69.75,
+    "total": 777.25,
+    "validation": {
+      "status": "FLAGGED",
+      "issues": [
+        "total_mismatch: expected 767.25 but document says 777.25"
+      ]
+    }
+  },
+  {
+    "source_file": "invoice_03_european.pdf",
+    "extraction_method": "text",
+    "vendor": "Beispiel Büro GmbH",
+    "invoice_number": "R-2026/0099",
+    "invoice_date": "2026-03-05",
+    "currency": "EUR",
+    "line_items": [
+      {
+        "description": "Beratung (Stunden)",
+        "quantity": 12.5,
+        "unit_price": 95.0,
+        "amount": 1187.5
+      },
+      {
+        "description": "Reisekosten Pauschale",
+        "quantity": 1.0,
+        "unit_price": 240.0,
+        "amount": 240.0
+      },
+      {
+        "description": "Lizenz Jahresgebühr",
+        "quantity": 3.0,
+        "unit_price": 1280.4,
+        "amount": 3841.2
+      }
+    ],
+    "subtotal": 5268.7,
+    "tax_rate_percent": 19.0,
+    "tax": 1001.05,
+    "total": 6269.75,
+    "validation": {
+      "status": "OK",
+      "issues": []
+    }
+  },
+  {
+    "source_file": "invoice_04_scanned.pdf",
+    "extraction_method": "ocr",
+    "vendor": "Lumen Paper Co.",
+    "invoice_number": "SC-5521",
+    "invoice_date": "2026-03-09",
+    "currency": "USD",
+    "line_items": [
+      {
+        "description": "Copy paper A4 (box)",
+        "quantity": 5.0,
+        "unit_price": 24.0,
+        "amount": 120.0
+      },
+      {
+        "description": "Whiteboard markers",
+        "quantity": 12.0,
+        "unit_price": 1.85,
+        "amount": 22.2
+      },
+      {
+        "description": "Binder clips (pack)",
+        "quantity": 8.0,
+        "unit_price": 3.4,
+        "amount": 27.2
+      }
+    ],
+    "subtotal": 169.4,
+    "tax_rate_percent": 5.0,
+    "tax": 8.47,
+    "total": 177.87,
+    "validation": {
+      "status": "OK",
+      "issues": []
+    }
+  }
+]

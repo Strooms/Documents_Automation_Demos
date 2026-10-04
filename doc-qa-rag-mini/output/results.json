@@ -1,0 +1,256 @@
+{
+  "tfidf": {
+    "threshold": 0.28,
+    "passed": 7,
+    "total": 10,
+    "rows": [
+      {
+        "id": 1,
+        "question": "How many days of annual leave do employees get?",
+        "expected": "leave_policy.md",
+        "got": "leave_policy.md",
+        "citation": "leave_policy.md, page 1, chunk 0",
+        "score": 0.448,
+        "answer": "Full-time employees receive 18 days of paid annual leave per calendar year.",
+        "pass": true,
+        "fact_in_top3": true,
+        "right_chunk_ranked_first": true
+      },
+      {
+        "id": 2,
+        "question": "What is the maximum amount I can claim for meals per day?",
+        "expected": "expense_policy.pdf",
+        "got": "NOT FOUND",
+        "citation": "-",
+        "score": 0.246,
+        "answer": "Not found in the provided documents.",
+        "pass": false,
+        "fact_in_top3": true,
+        "right_chunk_ranked_first": true
+      },
+      {
+        "id": 3,
+        "question": "Which days must I be in the office?",
+        "expected": "remote_work.md",
+        "got": "NOT FOUND",
+        "citation": "-",
+        "score": 0.234,
+        "answer": "Not found in the provided documents.",
+        "pass": false,
+        "fact_in_top3": true,
+        "right_chunk_ranked_first": false
+      },
+      {
+        "id": 4,
+        "question": "What does error TN-12 mean in the VPN client?",
+        "expected": "vpn_setup.txt",
+        "got": "vpn_setup.txt",
+        "citation": "vpn_setup.txt, page 1, chunk 2",
+        "score": 0.377,
+        "answer": "Troubleshooting Error TN-12 means your device certificate has expired.",
+        "pass": true,
+        "fact_in_top3": true,
+        "right_chunk_ranked_first": true
+      },
+      {
+        "id": 5,
+        "question": "How quickly must the on-call engineer respond to a SEV1 incident?",
+        "expected": "incident_response.md",
+        "got": "incident_response.md",
+        "citation": "incident_response.md, page 1, chunk 0",
+        "score": 0.399,
+        "answer": "SEV1 is a full outage or data exposure: the on-call engineer must respond within 15 minutes.",
+        "pass": true,
+        "fact_in_top3": true,
+        "right_chunk_ranked_first": true
+      },
+      {
+        "id": 6,
+        "question": "How many failed logins before my account is locked?",
+        "expected": "password_policy.md",
+        "got": "password_policy.md",
+        "citation": "password_policy.md, page 1, chunk 1",
+        "score": 0.482,
+        "answer": "An account is locked for 15 minutes after 5 failed sign-in attempts.",
+        "pass": true,
+        "fact_in_top3": true,
+        "right_chunk_ranked_first": true
+      },
+      {
+        "id": 7,
+        "question": "How much does the Pro plan cost?",
+        "expected": "product_faq.pdf",
+        "got": "product_faq.pdf",
+        "citation": "product_faq.pdf, page 1, chunk 0",
+        "score": 0.413,
+        "answer": "The Pro plan costs USD 19 per month and includes 2000 pages per month.",
+        "pass": true,
+        "fact_in_top3": true,
+        "right_chunk_ranked_first": true
+      },
+      {
+        "id": 8,
+        "question": "Can I take time off after my baby is born?",
+        "expected": "leave_policy.md",
+        "got": "NOT FOUND",
+        "citation": "-",
+        "score": 0.212,
+        "answer": "Not found in the provided documents.",
+        "pass": false,
+        "fact_in_top3": false,
+        "right_chunk_ranked_first": false
+      },
+      {
+        "id": 9,
+        "question": "Who is the CEO of Fiktiva Labs?",
+        "expected": "NOT FOUND",
+        "got": "NOT FOUND",
+        "citation": "-",
+        "score": 0.236,
+        "answer": "Not found in the provided documents.",
+        "pass": true,
+        "fact_in_top3": false,
+        "right_chunk_ranked_first": false
+      },
+      {
+        "id": 10,
+        "question": "What is the dress code in the office?",
+        "expected": "NOT FOUND",
+        "got": "NOT FOUND",
+        "citation": "-",
+        "score": 0.159,
+        "answer": "Not found in the provided documents.",
+        "pass": true,
+        "fact_in_top3": false,
+        "right_chunk_ranked_first": false
+      }
+    ]
+  },
+  "bm25": {
+    "threshold": 0.24,
+    "passed": 7,
+    "total": 10,
+    "rows": [
+      {
+        "id": 1,
+        "question": "How many days of annual leave do employees get?",
+        "expected": "leave_policy.md",
+        "got": "leave_policy.md",
+        "citation": "leave_policy.md, page 1, chunk 0",
+        "score": 0.493,
+        "answer": "Full-time employees receive 18 days of paid annual leave per calendar year.",
+        "pass": true,
+        "fact_in_top3": true,
+        "right_chunk_ranked_first": true
+      },
+      {
+        "id": 2,
+        "question": "What is the maximum amount I can claim for meals per day?",
+        "expected": "expense_policy.pdf",
+        "got": "NOT FOUND",
+        "citation": "-",
+        "score": 0.199,
+        "answer": "Not found in the provided documents.",
+        "pass": false,
+        "fact_in_top3": true,
+        "right_chunk_ranked_first": true
+      },
+      {
+        "id": 3,
+        "question": "Which days must I be in the office?",
+        "expected": "remote_work.md",
+        "got": "remote_work.md",
+        "citation": "remote_work.md, page 1, chunk 2",
+        "score": 0.491,
+        "answer": "Home office stipend.",
+        "pass": false,
+        "fact_in_top3": true,
+        "right_chunk_ranked_first": false
+      },
+      {
+        "id": 4,
+        "question": "What does error TN-12 mean in the VPN client?",
+        "expected": "vpn_setup.txt",
+        "got": "vpn_setup.txt",
+        "citation": "vpn_setup.txt, page 1, chunk 2",
+        "score": 0.271,
+        "answer": "Troubleshooting Error TN-12 means your device certificate has expired.",
+        "pass": true,
+        "fact_in_top3": true,
+        "right_chunk_ranked_first": true
+      },
+      {
+        "id": 5,
+        "question": "How quickly must the on-call engineer respond to a SEV1 incident?",
+        "expected": "incident_response.md",
+        "got": "incident_response.md",
+        "citation": "incident_response.md, page 1, chunk 0",
+        "score": 0.282,
+        "answer": "SEV1 is a full outage or data exposure: the on-call engineer must respond within 15 minutes.",
+        "pass": true,
+        "fact_in_top3": true,
+        "right_chunk_ranked_first": true
+      },
+      {
+        "id": 6,
+        "question": "How many failed logins before my account is locked?",
+        "expected": "password_policy.md",
+        "got": "password_policy.md",
+        "citation": "password_policy.md, page 1, chunk 1",
+        "score": 0.35,
+        "answer": "An account is locked for 15 minutes after 5 failed sign-in attempts.",
+        "pass": true,
+        "fact_in_top3": true,
+        "right_chunk_ranked_first": true
+      },
+      {
+        "id": 7,
+        "question": "How much does the Pro plan cost?",
+        "expected": "product_faq.pdf",
+        "got": "product_faq.pdf",
+        "citation": "product_faq.pdf, page 1, chunk 0",
+        "score": 0.311,
+        "answer": "The Pro plan costs USD 19 per month and includes 2000 pages per month.",
+        "pass": true,
+        "fact_in_top3": true,
+        "right_chunk_ranked_first": true
+      },
+      {
+        "id": 8,
+        "question": "Can I take time off after my baby is born?",
+        "expected": "leave_policy.md",
+        "got": "NOT FOUND",
+        "citation": "-",
+        "score": 0.119,
+        "answer": "Not found in the provided documents.",
+        "pass": false,
+        "fact_in_top3": false,
+        "right_chunk_ranked_first": false
+      },
+      {
+        "id": 9,
+        "question": "Who is the CEO of Fiktiva Labs?",
+        "expected": "NOT FOUND",
+        "got": "NOT FOUND",
+        "citation": "-",
+        "score": 0.185,
+        "answer": "Not found in the provided documents.",
+        "pass": true,
+        "fact_in_top3": false,
+        "right_chunk_ranked_first": false
+      },
+      {
+        "id": 10,
+        "question": "What is the dress code in the office?",
+        "expected": "NOT FOUND",
+        "got": "NOT FOUND",
+        "citation": "-",
+        "score": 0.137,
+        "answer": "Not found in the provided documents.",
+        "pass": true,
+        "fact_in_top3": false,
+        "right_chunk_ranked_first": false
+      }
+    ]
+  }
+}

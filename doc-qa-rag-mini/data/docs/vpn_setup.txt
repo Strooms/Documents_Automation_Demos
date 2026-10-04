@@ -1,0 +1,10 @@
+VPN Setup Guide
+
+Installing the client
+Install the Tunnelo VPN client from the internal software portal. Open it and enter the server address vpn.fiktiva.example.
+
+Signing in
+Sign in with your company email. Multi-factor authentication is mandatory: approve the prompt in your authenticator app, then wait for the green Connected status.
+
+Troubleshooting
+Error TN-12 means your device certificate has expired. Open the software portal and choose Renew certificate, then restart the client. Error TN-40 means the server is unreachable; check your internet connection and try again.
